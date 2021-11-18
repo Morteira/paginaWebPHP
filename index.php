@@ -42,7 +42,17 @@
           <p>Institución de referencia en la educación superior en el ámbito nacional y regional, por el aporte substantivo a la investigación, innovación y la responsabilidad social, desde la doctrina social de la Iglesia, por la calidad humana y profesional y por el compromiso cristiano de sus egresados.</p>
         </div>
       </section>
-      <select class=""></select>
+      <selector class="Autoridades">
+        <div class="contenedor-Autoridades">
+          <h2 class="titulo">Autoridades</h2>
+          <div class="contenedor-list">
+            <h3><span>1</span>Director general</h3>
+            <p>Pbro. Marek Wilk</p>
+            <h3><span>1</span>Secretaria General</h3>
+            <p>Lic. Luz Marina Núñez Ozuna</p>
+          </div>
+        </div>
+      </select>
    </main>
 
 
