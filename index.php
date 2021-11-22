@@ -1,60 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo Practico</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UCA</title>
+    <link rel="shortcut icon" href="img/logo_uc_s.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
-
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">UCA Sede Gré</label>
-
-        <ul>
-          <li><a class="active" href="#">Inicio</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contactos</a></li>
-          <li><a href="#">Otros</a></li>
-        </ul>
-      </nav>
-      <section class="textos-header">
-     <h1> Universidad Cátolica Nuestra Señora de la Asunción </h1>
-     </section>
-     <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+    <header>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Producto</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Universidad Cátolica Nuestra Señora de la Asunción</h1>
+            <h2>Sede Guarambaré</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
     <main>
-      <section clas="contenedor">
-      <h2 class="titulo">Perspectiva</h2>
-      <div class="contenedor-uca">
-        <img src="images/phpThumb_generated_thumbnailjpg-45.jpg" alt="" class="imagen-about-us"> 
-        <div class="contenido-textos">
-          <h3><span>1</span>Misión</h3>
-          <p>La Universidad Católica “Nuestra Señora de la Asunción”, servicio y contribución de la Iglesia, busca a partir de los valores éticos-cristianos la excelencia en la gestión de la docencia, la investigación y la extensión, contribuyendo a una sociedad justa, solidaria, incluyente, sostenible y respetuosa de la dignidad humana.
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nosotros</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Misión</h3>
+                    <p>La Universidad Católica “Nuestra Señora de la Asunción”, servicio y contribución de la Iglesia, busca a partir de los valores éticos-cristianos la excelencia en la gestión de la docencia, la investigación y la extensión, contribuyendo a una sociedad justa, solidaria, incluyente, sostenible y respetuosa de la dignidad humana.
           Según Plan Estratégico 2016-2020, elaborado por el Consejo de la Comunidad Universitaria y aprobado por el Consejo General de Gobierno.</p>
-          <h3><span>2</span>Visión</h3>
-          <p>Institución de referencia en la educación superior en el ámbito nacional y regional, por el aporte substantivo a la investigación, innovación y la responsabilidad social, desde la doctrina social de la Iglesia, por la calidad humana y profesional y por el compromiso cristiano de sus egresados.</p>
+                    <h3><span>2</span>Visión</h3>
+                    <p>Institución de referencia en la educación superior en el ámbito nacional y regional, por el aporte substantivo a la investigación, innovación y la responsabilidad social, desde la doctrina social de la Iglesia, por la calidad humana y profesional y por el compromiso cristiano de sus egresados.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Producto</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/26-500x354.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/UC-Guarambare-Redes-Digitales.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/65NE354565FSZASQQUPI655LVM.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/2017-08-10.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/6ab81954e89574a86669ebdfed9a2da390266c54.jpg.th810.webp" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/phpThumb_generated_thumbnailjpg-45.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Directivos</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/escritura.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Director general</h4>
+                        <p>Pbro. Marek Wilk</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/profe.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Secretaria General</h4>
+                        <p>Lic. Luz Marina Núñez Ozuna</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/analisis.jpg" alt="">
+                        <h3>Análisis de Sistema </h3>
+                        <p>• Analizar, diseñar, implementar y dar mantenimiento a sistemas de información en el área de Gestión administrativa.
+• Diseñar y administrar bases de datos.
+• Administrar sistemas de redes de computadoras y sistemas de transmisión de datos.
+• Conocer la organización interna de las computadoras digitales.
+• Ejercer docencia en el área de informática en los centros de estudios superiores.
+• Evaluar, seleccionar e instalar equipo de cómputo.
+• Dirigir y coordinar grupos de trabajo.
+• Analizar la organización y arquitectura de los equipos de cómputo
+• Seleccionar y administrar personal y equipos necesarios para una unidad de servicios de cómputo.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/administracion.jpg" alt="">
+                        <h3>Administración de Empresa</h3>
+                        <p>El egresado de la Licenciatura en Administración de Empresas de la Universidad Católica posee las competencias en un conjunto de conocimientos, técnicas y procedimientos sistematizados para analizar las informaciones del contexto empresarial, de manera a obtener la máxima racionalidad y rendimiento en la gestión de los recursos organizacionales, a través de una sólida formación integral que le permita interpretar, comprender y anticipar los cambios que se producen en las organizaciones, y además, ejercer un liderazgo eficaz en la empresa.</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/derecho.jpg" alt="">
+                        <h3>Derecho</h3>
+                        <p>El egresado de la Facultad de Ciencias Jurídicas posee una formación teórica, práctica y sistemática en las Ciencias Jurídicas; la misma comprende sus principios generales, fundamentos filosóficos y éticos así como sus instituciones esenciales, que le permiten desempeñarse en el ejercicio de la profesión tanto en el ámbito jurídico público como en el privado, a nivel nacional e internacional, asesorando y representado intereses de personas físicas o jurídicas, en el contexto de una ética profesional jurídica que respete y promueva la dignidad y el valor de la persona humana, la búsqueda de la verdad, el bien común y la justicia, desde la perspectiva de la fe católica.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p></p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p></p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p></p>
+            </div>
         </div>
-      </section>
-      <selector class="Autoridades">
-        <div class="contenedor-Autoridades">
-          <h2 class="titulo">Autoridades</h2>
-          <div class="contenedor-list">
-            <h3><span>1</span>Director general</h3>
-            <p>Pbro. Marek Wilk</p>
-            <h3><span>1</span>Secretaria General</h3>
-            <p>Lic. Luz Marina Núñez Ozuna</p>
-          </div>
-        </div>
-      </select>
-   </main>
-
-
+        <h2 class="titulo-final">&copy; Alejandro, Ana, Carlos </h2>
+    </footer>
 </body>
+
 </html>
