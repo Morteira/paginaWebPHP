@@ -10,21 +10,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Diseño</label>
 
-        <ul>
-          <li><a class="active" href="#">Inicio</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contactos</a></li>
-          <li><a href="#">Otros</a></li>
-        </ul>
-      </nav>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="acerca.html">Acerca de</a>
+            <a href="producto.html">Producto</a>
+            <a href="servicies.html">Servicios</a>
+            <a href="contacto.php">Contacto</a>
+            <a href="preguntas.html">Preguntas Frecuentes</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Universidad Cátolica Nuestra Señora de la Asunción</h1>
+            <h2>Sede Guarambaré</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;">
+                </path>
+            </svg>
+        </div>
+    </header>
 
     <div class="contact_form">
 
@@ -83,6 +91,31 @@
             </form>
         </div>
     </div>
+
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <a href="https://www.facebook.com/unicatolicapy" target="_blank"><h4>Facebook</h4></a>
+                <p></p>
+            </div>
+            <div class="content-foo">
+                <a href="https://api.whatsapp.com/send?phone=595981515514&text=Quiero%20hacer%20una%20consulta" target="_blank"><h4>Whatsaap</h4></a>
+                <p></p>
+            </div>
+            <div class="content-foo">
+                <a href="https://www.instagram.com/unicatolicapy/" target="_blank"><h4>Instagram</h4></a>
+                <p></p>
+            </div>
+            <div class="content-foo">
+
+                <p>
+                    <a href="https://maps.google.com/?q=-25.498665,-57.464824" target="_blank" style="color: #fff;">  <h4>Location</h4></a>
+                </p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Alejandro, Ana, Carlos </h2>
+    </footer>
 
 </body>
 
