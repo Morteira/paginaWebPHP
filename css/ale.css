@@ -1,7 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
 
 
+
+header {
+  width: 100%;
+  height: 600px;
+  background: #4eafbc;
+  background: linear-gradient(to right, hsla(186, 56%, 83%, 0.459), hsla(184, 45%, 52%, 0.664)), url(../img/portada.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+nav{
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+
+nav > a{
+  color:#fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
   
+
+header .textos-header{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.textos-header h1{
+  font-size: 50px;
+  color:#fff;
+}
+
+.textos-header h2{
+  font-size: 30px;
+  font-weight: 300;
+  color:#fff;
+}
+
+.wave{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
   
+
+
+
+
+
   .contact_form{  
     width: 460px; 
     height: auto;
@@ -124,4 +187,44 @@
   }
   
   
-  /* creado por javiniguez.com, Julio 2019 */
+  /* foooter*/
+
+
+  
+footer{
+  background: #414141;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor-footer{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+  text-align: center;
+}
+
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #af20d3;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.content-foo p{
+  color: #ccc;
+}
+
+.titulo-final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+  color: #9e9797;
+}
